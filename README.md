@@ -57,7 +57,46 @@ This project simulates a real-world scenario where regional marketing teams depe
 * **GitHub** (for version control and collaboration)
 
 ---
+## 📄 Dataset Description
 
+The project uses two main datasets: one for **retail transactions** and one for **country-level demographic indicators**.
+
+### 🛒 1. `online_retail.csv` — Retail Transactions
+
+This dataset contains transactional data for online purchases. It represents customer purchases across various products and countries.
+
+| Column Name    | Description                                    | Type        |
+| -------------- | ---------------------------------------------- | ----------- |
+| `invoice`      | Unique invoice ID for each transaction         | `string`    |
+| `stock_code`   | Unique product code                            | `string`    |
+| `description`  | Description of the product                     | `string`    |
+| `quantity`     | Quantity of items purchased in the transaction | `integer`   |
+| `invoice_date` | Timestamp when the purchase was made           | `timestamp` |
+| `unit_price`   | Price per unit of the product                  | `double`    |
+| `country`      | Country where the purchase occurred            | `string`    |
+
+🔁 **Derived Columns in Silver Layer**:
+
+* `total_amount` = `quantity * unit_price`
+* `month_of_purchase` = Month extracted from `invoice_date`
+* Cleaned data includes only positive quantities and valid dates from 2024
+
+---
+
+### 🌍 2. `country_data.csv` — Country Indicators
+
+This dataset includes demographic and economic metrics for each country, helping enhance marketing analysis.
+
+| Column Name              | Description                                          | Type     |
+| ------------------------ | ---------------------------------------------------- | -------- |
+| `country`                | Country name (matches with retail dataset)           | `string` |
+| `region`                 | Geographical region (e.g., Europe, Asia, etc.)       | `string` |
+| `income_level`           | World Bank income classification (e.g., High income) | `string` |
+| `population`             | Total population of the country (2020)               | `long`   |
+| `gdp_per_capita`         | GDP per capita in USD                                | `double` |
+| `percent_internet_users` | Percentage of population with internet access        | `double` |
+
+---
 ##  Solution Architecture
 
 This solution follows the **Modern Data Architecture** pattern using **multihop design**:
