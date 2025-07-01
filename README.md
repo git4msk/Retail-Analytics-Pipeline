@@ -149,8 +149,13 @@ Optionally, this Gold layer can feed into **Power BI dashboards** or **Databrick
 
 
 ---
+
 ## Sytem Architecture
+
+---
 <p align="center"><img src="visualization images/system_architecture.jpg" width="60%"></p>
+
+
 ##  Setup Instructions
 
 1. Upload `online_retail.csv` and `country_data.csv` to the ADLS `raw` container.
