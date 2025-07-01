@@ -1,6 +1,6 @@
 ##  Retail Marketing Analytics Project
 
-This **end-to-end retail marketing analytics project** is developed using **Azure Databricks**, **Azure Data Lake Storage Gen2**, and **Delta Lake**. It integrates retail transaction data with World Bank country indicators to deliver marketing and advertising insights by region.
+This **end-to-end retail marketing analytics project** is developed using **Azure Databricks**, **Azure Data Lake Storage Gen2**, and **Delta Lake**. It integrates retail transaction data to deliver marketing and advertising insights by region.
 
 ---
 
