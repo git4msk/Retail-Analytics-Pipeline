@@ -22,7 +22,7 @@ This project simulates a real-world scenario where regional marketing teams depe
 
 * Ingest retail and country-level CSV data into the data lake
 * Apply appropriate schema and data types
-* Store raw data in the **Bronze layer** using Delta format
+* Ingest raw data in the **Bronze layer** using Delta format
 
 ###  Data Transformation:
 
