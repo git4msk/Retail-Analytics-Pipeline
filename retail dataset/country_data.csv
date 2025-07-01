@@ -1,0 +1,51 @@
+country,population,region,income_level,gdp_per_capita,percent_internet_users
+Argentina,46337520,Americas,Upper-middle,14187.48,83.1
+Australia,26451124,Oceania,High,62068.0,91.4
+Austria,9006400,Europe,High,58200.0,93.5
+Bangladesh,171466990,Asia,Lower-middle,1885.0,74.0
+Belgium,11524454,Europe,High,51000.0,93.5
+Brazil,215353593,Americas,Upper-middle,7600.0,74.0
+Canada,38900000,Americas,High,52000.0,91.8
+China,1412600000,Asia,Upper-middle,12600.0,77.5
+Colombia,51600000,Americas,Upper-middle,6000.0,71.2
+Czech Republic,10700000,Europe,High,23000.0,88.0
+Denmark,5900000,Europe,High,71000.0,98.0
+Egypt,110000000,Africa,Lower-middle,3800.0,57.0
+Finland,5520000,Europe,High,54000.0,94.0
+France,67390000,Europe,High,43000.0,93.5
+Germany,83190000,Europe,High,48000.0,94.0
+Greece,10420000,Europe,High,21000.0,72.0
+Hungary,9700000,Europe,High,18000.0,80.0
+India,1417000000,Asia,Lower-middle,2600.0,65.9
+Indonesia,279000000,Asia,Lower-middle,4500.0,73.0
+Iran,88000000,Asia,Upper-middle,6000.0,73.0
+Iraq,42000000,Asia,Upper-middle,5000.0,54.0
+Ireland,5000000,Europe,High,106000.0,96.0
+Israel,9700000,Asia,High,54000.0,89.0
+Italy,59500000,Europe,High,36000.0,79.0
+Japan,124800000,Asia,High,40200.0,92.0
+Kenya,53900000,Africa,Lower-middle,2200.0,44.0
+Malaysia,33380000,Asia,Upper-middle,11500.0,89.0
+Mexico,126200000,Americas,Upper-middle,10000.0,70.0
+Netherlands,17500000,Europe,High,58000.0,96.0
+New Zealand,5130000,Oceania,High,46000.0,92.0
+Nigeria,223800000,Africa,Lower-middle,2400.0,55.0
+Norway,5500000,Europe,High,90000.0,98.0
+Pakistan,240500000,Asia,Lower-middle,1500.0,43.0
+Philippines,114800000,Asia,Lower-middle,3300.0,67.4
+Poland,37950000,Europe,High,17000.0,83.0
+Portugal,10350000,Europe,High,25000.0,75.0
+Russia,146200000,Europe,Upper-middle,11200.0,85.0
+Saudi Arabia,35800000,Asia,High,24000.0,99.0
+Singapore,5900000,Asia,High,141500.0,99.0
+South Africa,60300000,Africa,Upper-middle,6000.0,70.0
+South Korea,51780000,Asia,High,32000.0,96.0
+Spain,47330000,Europe,High,30000.0,90.0
+Sweden,10440000,Europe,High,56000.0,98.0
+Switzerland,8736000,Europe,High,99500.0,99.0
+Thailand,70990000,Asia,Upper-middle,7000.0,75.0
+Turkey,85960000,Europe,Upper-middle,9600.0,82.0
+UAE,9890000,Asia,High,43000.0,99.0
+UK,67820000,Europe,High,42000.0,96.0
+USA,334300000,Americas,High,82000.0,91.8
+Vietnam,100500000,Asia,Lower-middle,4000.0,73.0
