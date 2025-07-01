@@ -1,7 +1,3 @@
-Perfect! Based on your formatting preference and project context (retail + country data for marketing insights), here's a clean and **GitHub-style `README.md`** for your project, closely modeled on the “Bike Sharing” example you shared:
-
----
-
 ##  Retail Marketing Analytics Project
 
 This **end-to-end retail marketing analytics project** is developed using **Azure Databricks**, **Azure Data Lake Storage Gen2**, and **Delta Lake**. It integrates retail transaction data with World Bank country indicators to deliver marketing and advertising insights by region.
