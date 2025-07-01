@@ -33,7 +33,7 @@ This project simulates a real-world scenario where regional marketing teams depe
 
 ###  Analysis:
 
-* Use **Spark SQL** to query Gold layer and extract marketing insights
+* Use ** SQL** to query Gold layer and extract marketing insights
 * Examples include: revenue by region, top products by country, monthly sales trends, and revenue per capita
 
 ###  Business Intelligence (Optional):
