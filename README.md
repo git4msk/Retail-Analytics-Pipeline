@@ -57,11 +57,11 @@ This project simulates a real-world scenario where regional marketing teams depe
 * **GitHub** (for version control and collaboration)
 
 ---
-## 📄 Dataset Description
+##  Dataset Description
 
 The project uses two main datasets: one for **retail transactions** and one for **country-level demographic indicators**.
 
-### 🛒 1. `online_retail.csv` — Retail Transactions
+###  1. `online_retail.csv` — Retail Transactions
 
 This dataset contains transactional data for online purchases. It represents customer purchases across various products and countries.
 
@@ -75,7 +75,7 @@ This dataset contains transactional data for online purchases. It represents cus
 | `unit_price`   | Price per unit of the product                  | `double`    |
 | `country`      | Country where the purchase occurred            | `string`    |
 
-🔁 **Derived Columns in Silver Layer**:
+ **Derived Columns in Silver Layer**:
 
 * `total_amount` = `quantity * unit_price`
 * `month_of_purchase` = Month extracted from `invoice_date`
@@ -83,7 +83,7 @@ This dataset contains transactional data for online purchases. It represents cus
 
 ---
 
-### 🌍 2. `country_data.csv` — Country Indicators
+###  2. `country_data.csv` — Country Indicators
 
 This dataset includes demographic and economic metrics for each country, helping enhance marketing analysis.
 
